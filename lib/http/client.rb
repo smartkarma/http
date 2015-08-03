@@ -18,6 +18,7 @@ module HTTP
 
     KEEP_ALIVE         = "Keep-Alive".freeze
     CLOSE              = "close".freeze
+    BUFFER_SIZE        = 16_384
 
     HTTP_OR_HTTPS_RE   = %r{^https?://}i
 
